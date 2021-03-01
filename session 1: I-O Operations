@@ -1,0 +1,12 @@
+
+**1.)SCIENTIST SUM**
+
+            #include <iostream>
+            using namespace std;
+            int main() {int water,it,ft;
+                        float Q;
+                        cin>>water>>it>>ft;
+                        Q=water*(ft-it)*4184;
+                        cout<<"The energy needed is "<<Q;
+                       return 0;
+            }
